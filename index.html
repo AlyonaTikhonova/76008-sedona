@@ -2,11 +2,112 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Седона главная</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive">Базовый HTML и CSS</a>».</p>
-
-  </body>
+	<header>
+		<ul class="nav">
+			<li><a href="#">ИНФОРМАЦИЯ</a></li>
+			<li><a href="#">ФОТО И ВИДЕО</a></li>
+			<li><img src="/city-of-sedona" alt="" width="" height=""/></li>
+			<li><a href="#">КАРТА ШТАТА</a></li>
+			<li><a href="#">ГОСТИНИЦЫ</a></li>
+		</ul>
+		<section class="header-image">
+			<img src="/header-image" alt="" width="" height=""/>
+		</section>
+	</header>
+	<section class="top">
+		<h1>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО</h1>
+		<p>РАССМОТРИМ 5 ПРИЧИН ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНДКАНЬОН!</p>
+	</section>
+	<section>
+		<div class="item blue">
+			<span class="head">НАСТОЯЩИЙ ГОРОДОК</span>
+			<span>— №1 —</span>
+			<p>СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+		</div>
+		<div>
+			<img src="/sedona-foto" alt="" width="" height=""/>
+		</div>
+	</section>
+	<section>
+		<div class="item white">
+			<img src="/house" alt="" width="" height=""/>
+			<span class="head">ЖИЛЬЕ</span>
+			<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+		</div>
+		<div>
+			<img src="/burger" alt="" width="" height=""/>
+			<span class="head">ЕДА</span>
+			<p>Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
+		</div>
+		<div>
+			<img src="/gift" alt="" width="" height=""/>
+			<span class="head">СУВЕНИРЫ</span>
+			<p>Не только китайского, но и местного производства!</p>
+		</div>
+	</section>
+	<section>
+		<div>
+			<img src="/sedona-foto2" alt="" width="" height=""/>
+		</div>
+		<div class="item blue">
+			<span class="head">ТАМ ЕСТЬ Мост дьявола</span>
+			<span>— №2 —</span>
+			<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+		</div>
+	</section>
+	<section>
+		<div class="item grey">
+			<span class="head">НЕБОЛЬШАЯ ПЛОЩАДЬ</span>
+			<span>— №3 —</span>
+			<p>Все достопримеча-тельности находятся очень близко</p>
+		</div>
+		<div class="item grey">
+			<span class="head">КРАСИВАЯ ДОРОГО</span>
+			<span>— №4 —</span>
+			<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+		</div>
+		<div class="item grey">
+			<span class="head">МАЛО ТУРИСТОВ</span>
+			<span>— №5 —</span>
+			<p>Большинство едет в гранд каньон и толпится там</p>
+		</div>
+	</section>
+	<section>
+		<h2>ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+		<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+		<div>
+			<span class="head-search">ПОИСК ГОСТИНИЦЫ</span>
+			<form action="https://echo.htmlacademy.ru">
+				<label>ДАТА ЗАЕЗДА:</label>
+				<input type="date"/>
+				<label>ДАТА ВЫЕЗДА:</label>
+				<input type="date"/>
+				<label>ВЗРОСЛЫЕ:</label>
+				<input name="count_people" type="number" min="1" value="2">
+				<label>ДЕТИ:</label>
+				<input name="count_people" type="number" min="0" value="0">
+				<input type="button" name="search" value="НАЙТИ"/>
+			</form>
+		</div>
+	</section>
+	<section class="map">
+		<img src="/map" alt="" width="" height=""/>
+	</section>
+	<footer>
+		<div class="share">
+			<a href="#">#VISITSEDONA</a>
+		</div>
+		<div class="social">
+			<img src="/vk" alt="" width="" height=""/>
+			<img src="/fb" alt="" width="" height=""/>
+			<img src="/youtube" alt="" width="" height=""/>
+		</div>
+		<div class="made">
+			<span>WEBSITE by <a href="#"><img src="/made" alt="" width="" height=""/></a></span>
+		</div>
+	</footer>
+	</body>
 </html>
