@@ -3,7 +3,11 @@ body {
 	line-height: 11px;
 	font-color: #333333;
 	font-weight: normal;
-	font-family: PTSans;
+	@font-face {
+    font-family: PTSans;
+    src: url(./fonts/ptsans.woff);
+    text-transform: uppercase;
+   }
 }
 h1 {
 	font-size: 15px;
@@ -11,6 +15,7 @@ h1 {
 	font-color: #000000;
 	font-weight: bold;
 	font-family: PTSans;
+	text-align: center;
 }
 h2 {
 	font-size: 15px;
@@ -18,4 +23,122 @@ h2 {
 	font-color: #000000;
 	font-weight: bold;
 	font-family: PTSans;
+}
+/*выделение блоков цветом*/
+.nav {outline: 1px solid black;}
+.header-image {outline: 1px solid yellow;}
+.top {outline: 1px solid red;}
+.blue {outline: 1px solid blue;}
+.item-foto {outline: 1px solid green;}
+.white {outline: 1px solid brown;}
+.grey {outline: 1px solid grey;}
+.search {outline: 1px solid purple;}
+.button {outline: 1px solid pink;}
+.map {outline: 1px solid violet;}
+.share {outline: 1px solid orange;}
+.social {outline: 1px solid #878376;}
+.made {outline: 1px solid #847403;}
+footer {outline: 1px solid black;}
+/*выделение блоков цветом*/
+
+.nav {
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+ul.nav li {
+outline: 1px solid black;
+display: inline-block;
+vertical-align:middle;
+width:20%;
+}
+.nav a {
+text-decoration:none;
+color:#000000;
+}
+header {
+width:1200px;
+text-align: center;
+}
+.header-image {
+padding-top:76px;
+height: 432px;
+background:
+url(../img/headerpic2.png) no-repeat 0px 450px,
+url(../img/mountains.png) no-repeat;
+background-size: 100%;
+margin-top: -26px;
+}
+.item {
+height:256px;
+width:400px;
+vertical-align:top;
+text-align: center;
+text-transform: uppercase;
+}
+section div.item {
+display:inline-block;
+}
+section div.item-foto {
+display:inline-block;
+}
+.top {
+padding-top:61px;
+padding-bottom:56px;
+height:135x;
+width:1200px;
+text-align: center;
+text-transform: uppercase;
+}
+.search {
+height:291px;
+width:1200px;
+text-transform: uppercase;
+}
+.search h2 {
+margin-top:0px;
+}
+.map{
+width:1200px;
+}
+footer {
+text-align: center;
+height:116px;
+width:1200px;
+}
+.share {
+display:inline-block;
+text-align: center;
+text-transform: uppercase;
+vertical-align: middle;
+margin-right:256px;
+margin-top: 50px;
+}
+.social {
+display:inline-block;
+width:150px;
+height:48px;
+vertical-align: middle;
+margin-right:228px;
+margin-top: 35px;
+}
+.made {
+display:inline-block;
+width:195px;
+height:48px;
+text-align: center;
+text-transform: uppercase;
+vertical-align: middle;
+margin-top: 35px;
+}
+.blue {
+background-color:#81b3d2;
+color:#FFF;
+}
+.grey {
+background-color:#eeeeee;
+}
+.footer div {
+padding-right:
 }
