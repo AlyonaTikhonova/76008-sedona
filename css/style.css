@@ -11,6 +11,7 @@ body {
 	color: #333333;
 	font-weight: normal;
     font-family: PTSans;
+    text-transform: uppercase;
    }
 header, main, footer{
     margin: 0 auto;
@@ -19,7 +20,7 @@ header, main, footer{
 h1, h2{
 	font-size: 21px;
 	font-weight: bold;
-	font-family: 'PTSans';
+	font-family: PTSans;
 	margin: 30px 0;
 	padding:0;
 }
@@ -143,11 +144,18 @@ margin-top: -26px;
 .infrastructure, .house, .price{
 display:inline-block;
 vertical-align: top;
-margin-top: 31px;
+margin-top: 0px;
+padding-bottom:30px;
 width:300px;
 }
 .price {
 width:600px;
+}
+.price h2, .price div {
+padding-left:200px;
+}
+.price  input[type="button"] {
+margin-left: 250px;
 }
 article{
 padding: 30px 0;
@@ -158,15 +166,32 @@ vertical-align:top;
 }
 .found, .foto{
 width:235px;
+text-align: center;
+}
+.found {
+text-align:center;
+padding-top: 31px;
+font-weight:bold;
 }
 .sorting, .description{
 width: 810px;
 }
+.description h2 {
+margin:0px;
+}
+.sorting {
+padding-top: 31px;
+padding-bottom:37px;
+font-size:12px;
+}
 .switch, .rating{
 width: 155px;
+padding-top:16px;
+}
+.rating {
+vertical-align:bottom;
 }
 .sort {
-padding: 0;
 display: inline;
 }
 .sort li {
@@ -185,21 +210,19 @@ margin-right:72px;
 display: inline-block;
 vertical-align:middle;
 }
-.info a {
+.info a, .reserv a {
 text-align: center;
 text-decoration:none;
 padding:8px 17px;
+color:#FFF;
+margin-top:30px;
+line-height: 33px;
 }
 .reserv, .info {
 display:inline-block;
 line-height:20px;
 vertical-align:middle;
-}
-.reserv a {
-text-align: center;
-text-decoration:none;
-color:#FFF;
-padding:8px 17px;
+padding-top:18px;
 }
 .brown {
 background-color:#766357;
