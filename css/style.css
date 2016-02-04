@@ -16,6 +16,8 @@ body {
 header, main, footer{
     margin: 0 auto;
     width: 1200px;
+    padding-right:31px;
+    padding-left:31px;
 }
 h1, h2{
 	font-size: 21px;
@@ -58,13 +60,17 @@ color:#000000;
 .nav li:nth-child(3) {
 padding-top:0;
 }
+.nav li img {
+position:absolute;
+padding-left: 50px;
+}
 header {
 width:1200px;
 text-align: center;
 }
 .header-image {
 padding-top:76px;
-margin-top: -29px;
+margin-top: -7px;
 height: 432px;
 background:
 url(../img/headerpic2.png) no-repeat 0px 451px,
@@ -174,7 +180,7 @@ padding-top: 31px;
 font-weight:bold;
 }
 .sorting, .description{
-width: 810px;
+width: 780px;
 }
 .description h2 {
 margin:0px;
@@ -185,7 +191,7 @@ padding-bottom:37px;
 font-size:12px;
 }
 .switch, .rating{
-width: 155px;
+width: 185px;
 padding-top:16px;
 }
 .rating {
