@@ -1,0 +1,8 @@
+
+.icon-up-dir:before { content: '\e800'; } /* '' */
+.icon-down-dir:before { content: '\e801'; } /* '' */
+.icon-facebook:before { content: '\e803'; } /* '' */
+.icon-instagram:before { content: '\e804'; } /* '' */
+.icon-twitter-bird:before { content: '\e805'; } /* '' */
+.icon-star:before { content: '\e806'; } /* '' */
+.icon-youtube:before { content: '\e807'; } /* '' */

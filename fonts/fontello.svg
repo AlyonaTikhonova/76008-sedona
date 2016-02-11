@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="up-dir" unicode="&#xe800;" d="m0 150l230 400 230-400-460 0z" horiz-adv-x="460" />
+<glyph glyph-name="down-dir" unicode="&#xe801;" d="m460 550l-230-400-230 400 460 0z" horiz-adv-x="460" />
+<glyph glyph-name="facebook" unicode="&#xe803;" d="m500 644l-142 0q-14 0-25-15t-11-37l0-102 178 0 0-148-178 0 0-442-170 0 0 442-152 0 0 148 152 0 0 86q0 94 59 159t147 65l142 0 0-156z" horiz-adv-x="500" />
+<glyph glyph-name="instagram" unicode="&#xe804;" d="m690 350q0 26-6 50l176 0 0-344q0-56-39-96t-95-40l-592 0q-56 0-95 40t-39 96l0 344 174 0q-4-32-4-50 0-106 76-183t184-77q106 0 183 77t77 183z m36 430q56 0 95-39t39-95l0-146-218 0q-78 110-212 110-138 0-212-110l-218 0 0 146q0 56 39 95t95 39l592 0z m64-166l0 72q0 24-24 24l-72 0q-24 0-24-24l0-72q0-8 7-16t17-8l72 0q24 0 24 24z m-200-264q0-66-47-113t-113-47-113 47-47 113q0 68 47 114t113 46 113-46 47-114z" horiz-adv-x="860" />
+<glyph glyph-name="twitter-bird" unicode="&#xe805;" d="m1231 732q-51-77-126-131 1-14 1-32 0-102-30-203-29-102-90-195-61-92-145-164-84-72-201-114-118-43-253-43-210 0-387 113 31-3 60-3 176 0 314 108-82 2-147 51-64 49-89 125 24-5 48-5 34 0 66 9-87 17-145 87-57 69-57 160l0 4q53-30 114-32-52 34-82 90-30 55-30 120 0 68 34 127 95-117 230-186 135-70 290-78-6 28-6 58 0 104 74 178 74 74 178 74 110 0 185-80 85 17 160 62-29-91-111-140 76 9 145 39z" horiz-adv-x="1231" />
+<glyph glyph-name="star" unicode="&#xe806;" d="m0 471l379-2 125 360 117-364 379-8-309-220 110-366-307 225-310-215 119 360z" horiz-adv-x="1000" />
+<glyph glyph-name="youtube" unicode="&#xe807;" d="m0-29l0 758 1000 0 0-758-1000 0z m355 157l350 220-350 219 0-439z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

@@ -2,8 +2,15 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animation.css" type="text/css" />
+<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+<link rel="stylesheet" href="css/fontello-codes.css" type="text/css" />
+<link rel="stylesheet" href="css/fontello-embedded.css" type="text/css" />
+<link rel="stylesheet" href="css/fontello-ie7.css" type="text/css" />
+<link rel="stylesheet" href="css/fontello-ie7-codes.css" type="text/css" />
     <title>Седона каталог</title>
   </head>
   <body>
@@ -48,15 +55,15 @@
 			--><div class="sorting">
 			<span>СОРТИРОВКА:</span>
 			<ul class="sort">
-				<li><a href="#">ПО ЦЕНЕ</a></li><!--
-			--><li><a href="#">ПО ТИПУ</a></li><!--
-			--><li><a href="#">ПО РЕЙТИНГУ</a></li>
+				<li class="param-1"><a href="#">ПО ЦЕНЕ</a></li><!--
+			--><li class="param-2"><a href="#">ПО ТИПУ</a></li><!--
+			--><li class="param-3"><a href="#">ПО РЕЙТИНГУ</a></li>
 			</ul>
 		</div><!--
 			--><div class="switch">
 			<ul class="sort-button">
-				<li><img src="" alt="" width="" height=""/></li><!--
-			--><li><img src="" alt="" width="" height=""/></li>
+				<li><a class="icon-up-dir" href="#"></a></li><!--
+			--><li class="active"><a class="icon-down-dir" href="#"></a></li>
 			</ul>
 		</div>
 	</section>
@@ -76,7 +83,12 @@
 			</div>
 		</div><!--
 			--><div class="rating">
-			<img src="" alt="" width="" height=""/>
+				<div class="stars">
+			<span class="icon-star"></span><!--
+			--><span class="icon-star"></span><!--
+			--><span class="icon-star"></span><!--
+			--><span class="icon-star"></span>
+			</div>
 			<span>РЕЙТИНГ: 8,5</span>
 		</div>
 	</article>
@@ -96,7 +108,10 @@
 			</div>
 		</div><!--
 			--><div class="rating">
-			<img src="" alt="" width="" height=""/>
+				<div class="stars">
+			<span class="icon-star"></span><!--
+			--><span class="icon-star"></span>
+			</div>
 			<span>РЕЙТИНГ: 8,9</span>
 		</div>
 	</article>
@@ -116,7 +131,11 @@
 			</div>
 		</div><!--
 			--><div class="rating">
-			<img src="" alt="" width="" height=""/>
+				<div class="stars">
+			<span class="icon-star"></span><!--
+			--><span class="icon-star"></span><!--
+			--><span class="icon-star"></span>
+			</div>
 			<span>РЕЙТИНГ: 9,2</span>
 		</div>
 	</article>
@@ -126,9 +145,9 @@
 			<a href="#">#VISITSEDONA</a>
 		</div><!--
 			--><div class="social">
-			<a href="#"><img src="" alt="" width="" height=""/></a>
-			<a href="#"><img src="" alt="" width="" height=""/></a>
-			<a href="#"><img src="" alt="" width="" height=""/></a>
+			<a class="icon-twitter-bird" href="#"></a><!--
+			--><a class="icon-facebook" href="#"></a><!--
+			--><a class="icon-youtube" href="#"></a>
 		</div><!--
 			--><div class="made">
 			<span>WEBSITE by <a href="#"><img src="./img/htmlacademy.png" alt="Создано html Academy" width="113" height="37"/></a></span>
