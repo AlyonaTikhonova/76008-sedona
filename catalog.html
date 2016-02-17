@@ -2,18 +2,13 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animation.css" type="text/css" />
-<link rel="stylesheet" href="css/fontello.css" type="text/css" />
-<link rel="stylesheet" href="css/fontello-codes.css" type="text/css" />
-<link rel="stylesheet" href="css/fontello-embedded.css" type="text/css" />
-<link rel="stylesheet" href="css/fontello-ie7.css" type="text/css" />
-<link rel="stylesheet" href="css/fontello-ie7-codes.css" type="text/css" />
     <title>Седона каталог</title>
   </head>
   <body>
+	<div class="container">
 	<header>
 		<ul class="nav">
 			<li><a href="#">ИНФОРМАЦИЯ</a></li><!--
@@ -29,24 +24,33 @@
 		<div class="infrastructure">
 			<h2>Инфраструктура:</h2>
 			<ul>
-				<li><input type="checkbox">Бассейн</li>
-				<li><input type="checkbox">Парковка</li>
-				<li><input type="checkbox">Wi-fi</li>
+				<li><input type="checkbox" id="ch1"><label for="ch1">Бассейн</label></li>
+				<li><input type="checkbox" id="ch2"><label for="ch2">Парковка</label></li>
+				<li><input type="checkbox" id="ch3"><label for="ch3">Wi-fi</label></li>
 			</ul>
 		</div><!--
 			--><div class="house">
 			<h2>Тип жилья:</h2>
 			<ul>
-				<li><input type="checkbox">Гостиница</li>
-				<li><input type="checkbox">Мотель</li>
-				<li><input type="checkbox">Апартаменты</li>
+				<li><input type="checkbox" id="ch4"><label for="ch4">Гостиница</label></li>
+				<li><input type="checkbox" id="ch5"><label for="ch5">Мотель</label></li>
+				<li><input type="checkbox" id="ch6"><label for="ch6">Апартаменты</label></li>
 			</ul>
 		</div><!--
-			--><div class="price">
+			--><div class="filter-range">
 			<h2>Стоимость в сутки (р):</h2>
-			<div class="cost"> ОТ 0 | ДО 3000</div>
-			<div class="run"><input type="range"></div>
-			<input type="button" name="view" value="Показать">
+			<div class="price-controls">
+				<label class="min-price">от <input type="text" name="min-price" value="0"></label>
+				<label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+			</div>
+			<div class="range-controls">
+				<div class="scale">
+					<div class="bar"></div>
+				</div>
+				<div class="range-toggle range-toggle-min"></div>
+				<div class="range-toggle range-toggle-max"></div>
+			</div>
+			<button type="submit" class="btn-transparent">Показать</button>
 		</div>
 	  </form>
 	</section>
@@ -69,7 +73,7 @@
 	</section>
 	<article>
 		<div class="foto">
-			<img src="./img/catalogfoto1.png" alt="Amara Resort &amp; Spa" width="135" height="92"/>
+			<span><img src="./img/catalogfoto1.png" alt="Amara Resort &amp; Spa" width="135" height="92"/></span>
 		</div><!--
 			--><div class="description">
 		<a href="#"><h2>Amara Resort &amp; Spa</h2></a>
@@ -94,7 +98,7 @@
 	</article>
 	<article class="width-block padding-block">
 		<div class="foto">
-			<img src="./img/catalogfoto2.png" alt="Desert Quail Inn" width="135" height="92"/>
+			<span><img src="./img/catalogfoto2.png" alt="Desert Quail Inn" width="135" height="92"/></span>
 		</div><!--
 			--><div class="description">
 			<a href="#"><h2>Desert Quail Inn</h2></a>
@@ -117,7 +121,7 @@
 	</article>
 	<article>
 		<div class="foto">
-			<img src="./img/catalogfoto3.png" alt="Villas at Poco Diablo" width="135" height="92"/>
+			<span><img src="./img/catalogfoto3.png" alt="Villas at Poco Diablo" width="135" height="92"/></span>
 		</div><!--
 			--><div class="description">
 			<a href="#"><h2>Villas at Poco Diablo</h2></a>
@@ -145,13 +149,14 @@
 			<a href="#">#VISITSEDONA</a>
 		</div><!--
 			--><div class="social">
-			<a class="icon-twitter-bird" href="#"></a><!--
+			<a class="icon-twitter" href="#"></a><!--
 			--><a class="icon-facebook" href="#"></a><!--
 			--><a class="icon-youtube" href="#"></a>
 		</div><!--
 			--><div class="made">
-			<span>WEBSITE by <a href="#"><img src="./img/htmlacademy.png" alt="Создано html Academy" width="113" height="37"/></a></span>
+			<span>WEBSITE by <a href="#"><span class="logo htmlacademy"></span></a></span>
 		</div>
 	</footer>
+	</div>
    </body>
 </html>
