@@ -467,11 +467,6 @@ width:300px;
 font-size:16px; 
 font-weight:600; 
 }
-
-
-
-
- 
 input[type="checkbox"] { 
 display:none; 
 } 
@@ -492,16 +487,19 @@ input[type="checkbox"]:checked + label::before {
   font-family: "symbols-sedona";
     width:30px; 
 }
-
 input[type="checkbox"]:checked + label::before,
 input[type="checkbox"] + label::before,
 select label{
 display: inline-block;
 vertical-align:middle;
 }
-
-
- 
+input[type="checkbox"]:disabled + label::before {
+font-family: "symbols-sedona"; 
+  content: "\2610";
+  font-size: 26px; 
+  color:#6a6a6a;
+  width:30px;
+}
 .filter-range { 
 width: 330px; 
 margin: 0px auto; 
