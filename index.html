@@ -5,6 +5,7 @@
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-min.css" rel="stylesheet">
     <title>Седона главная</title>
   </head>
   <body>
@@ -23,14 +24,14 @@
 	</header>
 	<main>
 	<section class="top">
-		<h1>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
+		<h1>СЕДОНА &mdash; НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
 		<p>РАССМОТРИМ 5 ПРИЧИН ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНДКАНЬОН!</p>
 	</section>
 	<section class="advantage">
 		<div class="item blue">
 			<h2>НАСТОЯЩИЙ<br>ГОРОДОК</h2>
 			<span>&mdash; №1 &mdash;</span>
-			<p>СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,<br>ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+			<p class="adv1">СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,<br>ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
 		</div><!--
 			--><div class="item-foto right">
 			<img src="./img/fotoright.png" alt="Городок Седона" width="800" height="256"/>
@@ -53,21 +54,21 @@
 			<p>Не только китайского,<br>но и местного производства!</p>
 		</div>
 	</section>
-	<section class="advantage">
+	<section class="advantage advantage2">
 		<div class="item-foto left">
 			<img src="./img/fotoleft.png" alt="Мост дьявола" width="800" height="256"/>
 		</div><!--
 			--><div class="item blue">
 			<h2>ТАМ ЕСТЬ<br>Мост дьявола</h2>
 			<span>&mdash; №2 &mdash;</span>
-			<p>Да, по нему можно пройти!<br>Если конечно вы осмелитесь</p>
+			<p class="adv2">Да, по нему можно пройти!<br>Если конечно вы осмелитесь</p>
 		</div>
 	</section>
 	<section>
 		<div class="item grey">
 			<h2>НЕБОЛЬШАЯ<br>ПЛОЩАДЬ</h2>
 			<span>&mdash; №3 &mdash;</span>
-			<p>Все достопримеча-тельности<br>находятся очень близко</p>
+			<p>Все достопримечательности<br>находятся очень близко</p>
 		</div><!--
 			--><div class="item grey">
 			<h2>КРАСИВАЯ<br>ДОРОГА</h2>
@@ -84,17 +85,19 @@
 		<h2>ЗАИНТЕРЕСОВАЛИСЬ?</h2>
 		<p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
 			<a class="button" href="form.html">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+			<div class="modal-content">
 			<form action="https://echo.htmlacademy.ru">
-				<span class="coming"><label>ДАТА ЗАЕЗДА:</label><!--
-				--><input type="text" value="24 апреля 2016"><span class="icon-calendar"></span></span>
-				<span class="departure"><label>ДАТА ВЫЕЗДА:</label><!--
-				--><input type="text" value="4 июля 2016"><span class="icon-calendar"></span></span>
-				<span class="grown"><label>ВЗРОСЛЫЕ:</label><!--
-				--><span class="icon-minus"></span><input type="text" value="2"><span class="icon-plus"></span>
+				<div class="coming"><label>ДАТА ЗАЕЗДА:</label><!--
+				--><input type="text" name="coming-date" value="24 апреля 2016"><span class="icon-calendar"></span></div>
+				<div class="departure"><label>ДАТА ВЫЕЗДА:</label><!--
+				--><input type="text" name="departure-date" value="4 июля 2016"><span class="icon-calendar"></span></div>
+				<div class="grown"><label>ВЗРОСЛЫЕ:</label><!--
+				--><span class="icon-minus"></span><input type="text" name="grown" value="2"><span class="icon-plus"></span>
 				<span class="child"><label>ДЕТИ:</label><!--
-				--><span class="icon-minus"></span><input type="text" value="0"><span class="icon-plus"></span></span></span>
+				--><span class="icon-minus"></span><input type="text" name="child" value="0"><span class="icon-plus"></span></span></div>
 				<button type="submit" class="search-button">Найти</button>
 			</form>
+			</div>
 	</section>
 	<section class="map">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d839853.2265062004!2d-112.05366274463208!3d34.68810909431656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1455552342782" frameborder="0" allowfullscreen></iframe>
@@ -114,5 +117,6 @@
 		</div>
 	</footer>
 	</div>
+	<script src="js/popup-min.js"></script>
 	</body>
 </html>
