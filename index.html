@@ -83,18 +83,20 @@
 	<section class="search">
 		<h2>ЗАИНТЕРЕСОВАЛИСЬ?</h2>
 		<p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
-			<a class="button" href="form.html">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+			<a class="button" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+			<div class="modal-content">
 			<form action="https://echo.htmlacademy.ru">
 				<span class="coming"><label>ДАТА ЗАЕЗДА:</label><!--
-				--><input type="text" value="24 апреля 2016"><span class="icon-calendar"></span></span>
+				--><input type="text" name="coming-date" value="24 апреля 2016"><span class="icon-calendar"></span></span>
 				<span class="departure"><label>ДАТА ВЫЕЗДА:</label><!--
-				--><input type="text" value="4 июля 2016"><span class="icon-calendar"></span></span>
+				--><input type="text" name="departure-date" value="4 июля 2016"><span class="icon-calendar"></span></span>
 				<span class="grown"><label>ВЗРОСЛЫЕ:</label><!--
-				--><span class="icon-minus"></span><input type="text" value="2"><span class="icon-plus"></span>
+				--><span class="icon-minus"></span><input type="text" name="grown" value="2"><span class="icon-plus"></span>
 				<span class="child"><label>ДЕТИ:</label><!--
-				--><span class="icon-minus"></span><input type="text" value="0"><span class="icon-plus"></span></span></span>
+				--><span class="icon-minus"></span><input type="text" name="child" value="0"><span class="icon-plus"></span></span></span>
 				<button type="submit" class="search-button">Найти</button>
 			</form>
+			</div>
 	</section>
 	<section class="map">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d839853.2265062004!2d-112.05366274463208!3d34.68810909431656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1455552342782" frameborder="0" allowfullscreen></iframe>
@@ -114,5 +116,6 @@
 		</div>
 	</footer>
 	</div>
+	<script src="js/popup.js"></script>
 	</body>
 </html>
